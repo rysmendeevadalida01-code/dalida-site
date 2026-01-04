@@ -1,2 +1,43 @@
-Папка содержит вспомогательные ресурсы сайта: стили, скрипты и изображения.
-Позволяет поддерживать чистую структуру проекта и упрощает его дальнейшее расширение.
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    background: #020617;
+    padding: 20px;
+}
+
+nav a {
+    color: #e5e7eb;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #38bdf8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    opacity: 0.7;
+}
+
